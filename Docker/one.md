@@ -4,4 +4,7 @@
 
 ### 方案一：
 宿主机执行ifconfig
+``
+ifconfig | grep docker -A 2
+``
 会看到docker0那个ip，可以使用来访问宿主机
